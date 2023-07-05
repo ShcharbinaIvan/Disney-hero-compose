@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DIsneyHeroCompose</string>
+    <string name="all">All</string>
+    <string name="my">My</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="welcome_to_heroapp">Welcome to HeroApp</string>
 </resources>

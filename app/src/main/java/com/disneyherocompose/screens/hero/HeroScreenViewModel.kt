@@ -1,5 +1,4 @@
-package com.disneyherocompose.screen
-
+package com.disneyherocompose.screens.hero
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -12,17 +11,17 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class ListHeroesViewModel @Inject constructor(
+class HeroScreenViewModel @Inject constructor(
     private val heroRepository: HeroRepository
 ) : ViewModel() {
 
-    val listHeroes = MutableLiveData<ArrayList<Hero>>()
+    val hero = MutableLiveData<Hero>()
 
-    fun getListHeroes() {
+    fun getHero(id: Int) {
         viewModelScope.launch(Dispatchers.IO) {
             val response = heroRepository.getAllHeroesList()
             if (response.isSuccessful) {
-                listHeroes.postValue(response.body()?.data)
+                hero.postValue(response.body()?.data?.find { hero -> hero._id == id })
             }
         }
     }
