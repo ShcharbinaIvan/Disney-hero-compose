@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275061996294",
+    "project_id": "disneyheroapp-5d59d",
+    "storage_bucket": "disneyheroapp-5d59d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275061996294:android:69240544f44c82ec4ebc87",
+        "android_client_info": {
+          "package_name": "com.disneyherocompose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275061996294-5vjvlt8v4mgqslfp8vsti8clc5epkbjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN7ARXKrmrCBudeO9OgI1bC_Zzd48IIOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275061996294-5vjvlt8v4mgqslfp8vsti8clc5epkbjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,13 +7,7 @@ data class Hero(
     val tvShows: List<String>,
     val videoGames: List<String>,
     val parkAttractions: List<String>,
-    val allies: List<Any>,
-    val enemies: List<Any>,
-    val sourceUrl: String,
     val name: String,
     val imageUrl: String,
-    val createdAt: String,
-    val updatedAt: String,
-    val url: String,
-    val __v: Int
+    val url: String
 )
